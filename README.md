@@ -71,6 +71,12 @@ pip install -r requirements.txt
 
 ## Configuração
 
+Copie o arquivo de exemplo e edite com seus dados:
+
+```bash
+cp config.example.py config.py
+```
+
 Edite o arquivo `config.py`:
 
 ```python
