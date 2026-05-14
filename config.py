@@ -1,4 +1,4 @@
-LOCK_PASSWORD = "853400"
+LOCK_PASSWORD = "SUA SENHA"
 
 PHONE_MAC = "EC:CE:D7:DF:65:37"  # Bluetooth Classic do iPhone XR pessoal
 
