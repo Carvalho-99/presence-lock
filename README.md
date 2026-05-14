@@ -76,7 +76,7 @@ Edite o arquivo `config.py`:
 ```python
 LOCK_PASSWORD = "SUA SENHA"          # senha para suspender ou fechar o app
 
-PHONE_MAC = "XX:XX:XX:XX:XX:XX"  # MAC Bluetooth do seu iPhone
+PHONE_MAC = "XX:XX:XX:XX:XX:XX"  # MAC Bluetooth do seu Celular
                                    # Configurações → Geral → Informações → Bluetooth
 
 SCAN_INTERVAL = 1                  # segundos entre cada tentativa
