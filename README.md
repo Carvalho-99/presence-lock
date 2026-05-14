@@ -51,7 +51,7 @@ pip install -r requirements.txt
 Edite o arquivo `config.py`:
 
 ```python
-LOCK_PASSWORD = "853400"          # senha para suspender ou fechar o app
+LOCK_PASSWORD = "SUA SENHA"          # senha para suspender ou fechar o app
 
 PHONE_MAC = "EC:CE:D7:DF:65:37"  # MAC Bluetooth do seu iPhone
                                    # Configurações → Geral → Informações → Bluetooth
