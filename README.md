@@ -14,6 +14,29 @@ Roda discreta na bandeja do sistema, sem janelas abertas.
 
 ---
 
+## Antes de rodar — teste a detecção
+
+Após configurar o `config.py`, confirme que o seu iPhone está sendo detectado:
+
+```bash
+venv\Scripts\python.exe test_detection.py
+```
+
+Saída esperada com iPhone perto e BT ligado:
+```
+[13:22:03]  ✓ PRESENTE  (conectou)
+[13:22:08]  ✓ PRESENTE  (conectou)
+```
+
+Saída com BT desligado ou fora de alcance:
+```
+[13:22:13]  ✗ AUSENTE   (winerror=10060)
+```
+
+Só prossiga para o `start.bat` depois de ver `PRESENTE` consistente. Ctrl+C para parar o teste.
+
+---
+
 ## Como funciona
 
 - A cada segundo tenta conectar via Bluetooth ao iPhone configurado
