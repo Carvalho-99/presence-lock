@@ -5,3 +5,4 @@ __pycache__/
 *.pyd
 teste_*.py
 .env
+config.py
